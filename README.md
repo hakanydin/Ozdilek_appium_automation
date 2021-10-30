@@ -1,4 +1,4 @@
-**Özledik Android Uygulaması Favori Ürün Senaryosu**
+**Özdilek Android Uygulaması Favori Ürün Senaryosu**
 
 - "Özdilekteyim" uygulaması açılır.
 - Uygulamanın açıldığı kontrol edilir.
