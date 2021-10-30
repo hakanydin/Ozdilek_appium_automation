@@ -1,0 +1,48 @@
+Created by testinium on 27.10.2021
+
+
+# Alışveriş sayfasına geç ve kontrol et
+* Uygulamanın açıldığını kontrol et
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" elemanı tıklanabilir olunca tıkla(ID)
+* "com.ozdilek.ozdilekteyim:id/nav_home" elementini bul ve "Anasayfa" metni ile sayfa kontrolunu yap(ID)
+# Kategoriler Sayfasını aç ve kontrol et
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elemanı tıklanabilir olunca tıkla(ID)
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elementinin seçilebilir durumunu kontrol et(ID)
+
+# Menüden Kadın seçeneğine tıklanır
+* "//android.widget.TextView[contains(@text,'Kadın')]" elamanı tıklanabilir olunca tıkla(xpath)
+
+# Kategorilerden Pantolon seçilir
+* "//android.widget.TextView[contains(@text,'Pantolon')]" elamanı tıklanabilir olunca tıkla(xpath)
+
+# Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/imageView" rastgele sec(ID).
+* "//android.widget.TextView[contains(@text,'SEPETE EKLE')]" elementini bul ve "SEPETE EKLE" metni ile sayfa kontrolunu yap(XPATH)
+
+# Favorilere ekle islemi
+* Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/imgFav" elemanı tıklanabilir olunca tıkla(ID)
+
+# Sepete ekle islemi
+* Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/tvInSizeItem" tiklanabilir urun bedenini tikla.(ID)
+* "1" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" elemanı tıklanabilir olunca tıkla(ID)
+* "com.ozdilek.ozdilekteyim:id/btnLogin" elementini bul ve "Giriş Yap" metni ile sayfa kontrolunu yap(ID)
+
+# 2 kere kaydır
+//2 kere kaydıran fonksiyon bazen tam işlem yapmadığı için bu fonksiyon kullanılabilir.
+* Aşağı doğru kaydır
+* "1" saniye bekle
+* Aşağı doğru kaydır
+
+# Giris yap islemi
+* "com.ozdilek.ozdilekteyim:id/btnLogin" elementini bul ve "Giriş Yap" metni ile sayfa kontrolunu yap(ID)
+* "com.ozdilek.ozdilekteyim:id/etEposta" elementine "denemehesap@gmail.com" yaz.(ID)
+* "com.ozdilek.ozdilekteyim:id/etPassword" elementine "deneme123123" yaz.(ID)
+
+# 2 kere Geri dön
+* "com.ozdilek.ozdilekteyim:id/ivBack" elemanı tıklanabilir olunca tıkla(ID)
+* "1" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" elemanı tıklanabilir olunca tıkla(ID)
+* "1" saniye bekle
